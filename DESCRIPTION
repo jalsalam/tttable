@@ -9,3 +9,6 @@ LazyData: true
 ByteCompile: true
 Suggests: 
     testthat
+Imports: 
+    purrr,
+    rlang
