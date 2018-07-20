@@ -18,8 +18,8 @@ tttable <- function(data = NULL, arrangement = arr(), ...) {
 #' @export
 print.tt_table <- function(x, ...) {
 
-  cat("Printing `min_build(tttable) and arrangement as placeholder\n\nTable:\n")
-  print(min_build(x))
+  cat("Printing `min_build2(tttable) and arrangement as placeholder\n\nTable:\n")
+  print(min_build2(x))
   cat("\n")
   print(x$arrangement)
 
