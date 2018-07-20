@@ -10,7 +10,7 @@ min_build <- function(tt) {
   col_var <- tt$arrangement$cols[[1]]
 
   df <- tt$data %>%
-    tidyr::spread(!!col_var, Value, sep ="=") %>%
+    tidyr::spread(!!col_var, Value) %>%
     as.data.frame()
 
   df
