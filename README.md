@@ -1,3 +1,6 @@
+[![Travis build status](https://travis-ci.org/jalsalam/tttable.svg?branch=master)](https://travis-ci.org/jalsalam/tttable)
+
+
 # A grammar of tables
 
 (c) Thomas J. Leeper (2018), licensed [CC-BY](LICENSE.md)
